@@ -21,10 +21,6 @@
 		margin: 0 auto;
 	}
 
-	main img{
-		width: 240px;
-	}
-
 	h1 {
 		color: #ff3e00;
 		text-transform: uppercase;
@@ -32,9 +28,9 @@
 		font-weight: 100;
 	}
 
-	@media (min-width: 640px) {
+	@media (max-width: 640px) {
 		main, footer {
-			max-width: none;
+			max-width: 240px;
 		}
 	}
 </style>
