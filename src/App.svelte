@@ -17,8 +17,12 @@
 	main, footer{
 		text-align: center;
 		padding: 1em;
-		max-width: 240px;
+		max-width: 640px;
 		margin: 0 auto;
+	}
+
+	main img{
+		width: 200px;
 	}
 
 	h1 {
@@ -26,11 +30,5 @@
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
-	}
-
-	@media (max-width: 640px) {
-		main, footer {
-			max-width: 240px;
-		}
 	}
 </style>
