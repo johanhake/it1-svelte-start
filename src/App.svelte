@@ -6,7 +6,7 @@
 <main>
 	<h1>Hei {elev}!</h1>
 	<p>Nå skal {lærer} hjelpe deg å lære deg lage fete nettsider i Svelte.</p>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="Svelte-logo">
 </main>
 
 <footer>
