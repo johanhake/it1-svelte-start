@@ -1,6 +1,6 @@
 <script>
-	export let lærer = "Johan";
-	export let elev = "Petter Smart";
+	let lærer = "Johan";
+	let elev = "Petter Smart";
 </script>
 
 <main>
