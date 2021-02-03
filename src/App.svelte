@@ -5,7 +5,8 @@
 
 <main>
 	<h1>Hei {elev}!</h1>
-	<p>Når skal {lærer} hjelpe deg å lære deg Svelte.</p>
+	<p>Nå skal {lærer} hjelpe deg å lære deg lage fete nettsider i Svelte.</p>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="">
 </main>
 
 <footer>
@@ -13,11 +14,15 @@
 </footer>
 
 <style>
-	main {
+	main, footer{
 		text-align: center;
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
+	}
+
+	main img{
+		width: 240px;
 	}
 
 	h1 {
@@ -28,7 +33,7 @@
 	}
 
 	@media (min-width: 640px) {
-		main {
+		main, footer {
 			max-width: none;
 		}
 	}
